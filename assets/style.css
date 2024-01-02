@@ -14,11 +14,6 @@ h2 {
     height: 250px;
 }
 
-.about_me p {
-    text-align: center;
-    display: inline;
-}
-
 .work {
     display: flex;
     justify-content: center;
