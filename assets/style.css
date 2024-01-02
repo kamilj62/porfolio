@@ -4,18 +4,36 @@ h1 {
     padding: 20px;
 }
 
-img {
+h2 {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.about_me img {
     width: 250px;
     height: 250px;
 }
 
-.about_me {
-    display: flex;
-    justify-content: center;
+.about_me p {
+    text-align: center;
+    display: inline;
 }
+
 .work {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work img {
+    width: 150px;
+    height: 150px;
+    padding-top: 15px;
+}
+
+.work img:hover {
+    width: 250px;
+    height: 250px;
 }
 
 a {
