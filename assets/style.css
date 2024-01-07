@@ -5,14 +5,14 @@ body{
 
 h1 {
     text-align: center;
-    text-shadow: 2px 2px #070707;
-    font-size: 32px;
+    text-shadow: 2px 2px rgb(29, 23, 202);
+    font-size: 36px;
     padding: 20px;
 }
 
 h2 {
-    text-shadow: 2px 2px #070707;
-    font-size: 24px;
+    text-shadow: 2px 2px rgb(29, 23, 202);
+    font-size: 28px;
     padding: 25px;
 }
 
@@ -24,14 +24,14 @@ h2 {
 .about_me img {
     width: 200px;
     height: 200px;
-    border: solid 2px black;
+    border: solid 3px black;
     border-radius: 25px;
 }
 .about_me p {
-    text-shadow: 2px 2px black;
-    color: white;
+    text-shadow: 1px 1px white;
+    color: rgb(29, 23, 202);
     font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     padding: 100px;
 }
 .work {
@@ -43,7 +43,7 @@ h2 {
 .work img {
     width: 150px;
     height: 150px;
-    border: solid 2px white;
+    border: solid 3px white;
     border-radius: 25px;
 }
 
