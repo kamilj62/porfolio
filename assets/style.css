@@ -1,19 +1,39 @@
+body{
+    background-image: url("./background.jpg");
+    color: white;
+}
+
 h1 {
     text-align: center;
+    text-shadow: 2px 2px #070707;
     font-size: 32px;
     padding: 20px;
 }
 
 h2 {
+    text-shadow: 2px 2px #070707;
     font-size: 24px;
-    padding: 10px;
+    padding: 25px;
+}
+
+.about_me {
+    display: flex;
+    justify-content: center;
 }
 
 .about_me img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    border-radius: 25px;
 }
-
+.about_me p {
+    text-shadow: 2px 2px black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 100px;
+}
 .work {
     display: flex;
     justify-content: center;
@@ -23,20 +43,29 @@ h2 {
 .work img {
     width: 150px;
     height: 150px;
-    padding-top: 15px;
+    border: solid 2px white;
+    border-radius: 25px;
 }
 
 .work img:hover {
-    width: 250px;
-    height: 250px;
+    width: 225px;
+    height: 225px;
 }
 
 a {
     padding: 15px;
 }
 
-footer {
+.flex-container {
     text-align: center;
-    font-size: 24px;
-    padding: 20px;
 }
+
+.fa-brands {
+    color: black;
+    text-shadow: 2px 2px white;
+}
+
+.fa-brands:hover {
+    font-size: 30px;
+}
+
