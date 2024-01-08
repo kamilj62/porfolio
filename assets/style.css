@@ -30,9 +30,13 @@ h2 {
 .about_me p {
     text-shadow: 1px 1px white;
     color: rgb(29, 23, 202);
+    background-color: white;
     font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
     font-size: 24px;
     padding: 100px;
+    margin: 75px;
+    border: 3px solid black;
+    border-radius: 15px; 
 }
 .work {
     display: flex;
@@ -68,4 +72,3 @@ a {
 .fa-brands:hover {
     font-size: 30px;
 }
-
