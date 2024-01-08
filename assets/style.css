@@ -26,7 +26,7 @@ h2 {
 
 .about_me {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
 }
 
@@ -95,6 +95,5 @@ a {
 	/* on mobile devices, set cards to be 100% of the width */
 	body {
 		flex-basis: 100%;
-		/* margin-bottom: 1.5rem; */
 	}
 }
